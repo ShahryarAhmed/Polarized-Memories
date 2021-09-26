@@ -1,0 +1,37 @@
+.gallery{
+    display: flex;
+    width: 900px;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  figure{
+    width: 200px;
+    margin: 8px 0;
+    border: 1px solid #777;
+    padding: 8px;
+    box-sizing: border-box;
+    background-color: #fff;
+  }
+  figure img{
+    width: 100%;
+  }
+  figure figcaption{
+    text-align: center;
+    padding: 8px 4px;
+  }
+  figure img:hover {
+	box-shadow: 10px 10px 20px 10px Gainsboro;;
+    }   
+
+  .polaroid-image {
+	width: 100%;
+	border-radius: 25px 25px 0 0;
+	height: 40vh;
+}
+
+
+
+
+
+
